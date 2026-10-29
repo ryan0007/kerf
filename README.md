@@ -7,5 +7,4 @@ Public home of the Kerf marketing site and desktop downloads. The app's source l
 - Releases: the Windows builds. They are uploaded here by the private repository's `release.yml` when a `v*` tag is
   pushed there; nothing is built in this repo.
 
-Copy rules for the site: say only what is built, state that the app is unreleased or in preview, and give no prices
-(tiers are not decided).
+Copy rules for the site: say only what is built, say the app is an early preview, and mention no prices, payment or cloud plans.
