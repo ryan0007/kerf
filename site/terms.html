@@ -9,11 +9,14 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="top">
-  <a class="brand" href="index.html"><img src="kerf-icon.svg" alt="" width="32" height="32"><span>Kerf</span></a>
-  <nav><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="kerf-icon.svg" alt="" width="32" height="32"><span>Kerf</span></a>
+    <nav aria-label="Main"><a class="keep" href="index.html">Home</a><a class="nav-cta" href="index.html#download">Download</a></nav>
+  </div>
 </header>
-<main class="doc">
+<main id="main" class="doc">
 <h1>Terms of use</h1>
 <p class="meta">Last updated: [DATE]. Applies to the Kerf desktop app and this website.</p>
 <p class="lead">Plain-language terms. By installing or using Kerf you agree to them.</p>
@@ -37,8 +40,10 @@
 <p>[CONTACT EMAIL]</p>
 </main>
 <footer>
-  <span>Kerf</span>
-  <span><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></span>
+  <div class="wrap">
+    <span>© Kerf</span>
+    <span class="links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></span>
+  </div>
 </footer>
 </body>
 </html>
