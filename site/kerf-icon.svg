@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>Kerf</title>
+  <rect width="1024" height="1024" rx="228" fill="#6D3FE0"/>
+  <path d="M304 312H472a16 16 0 0 1 16 16V696a16 16 0 0 1 -16 16H304a72 72 0 0 1 -72 -72V384a72 72 0 0 1 72 -72z" fill="#FFFFFF"/>
+  <path d="M552 352H720a72 72 0 0 1 72 72V680a72 72 0 0 1 -72 72H552a16 16 0 0 1 -16 -16V368a16 16 0 0 1 16 -16z" fill="#FFFFFF"/>
+  <rect x="500" y="240" width="24" height="544" rx="12" fill="#FF4D85"/>
+</svg>
